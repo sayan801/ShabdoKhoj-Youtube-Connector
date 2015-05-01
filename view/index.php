@@ -100,12 +100,16 @@ if ($client->getAccessToken()) {
       $videoSnippet = $video['snippet'];
 
       $tags = $videoSnippet['tags'];
-      $htmlBody .= '<hr><form action="addtag.php" method="post" id="tag"><input type="hidden" name="videoId" value="'.$currentVideoTd.'"><input type="search" name="newtag" placeholder="TAG"></form>';
-         foreach ($tags as $tag) {
-         $htmlBody .= sprintf('<span class="label label-important"> %s </span>&nbsp;',$tag);
-         }
-    
-      $htmlBody .= '</li>';
+	  
+	   $htmlBody .= '<hr><form action="addtag.php" method="post" id="tag"><input type="hidden" name="videoId" value="'.$currentVideoTd.'"><input type="search" name="newtag" placeholder="TAG"></form>';
+	  
+	  if(!empty($tags))
+	  {		 
+			 foreach ($tags as $tag) {
+			 $htmlBody .= sprintf('<span class="label label-important"> %s </span>&nbsp;',$tag);
+			 }		 
+	  }
+	   $htmlBody .= '</li>';
     }
     $i++; 
       }
