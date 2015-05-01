@@ -1,0 +1,351 @@
+/**
+* All your custom CSS should go into this file
+*/
+
+body {
+            padding-top: 80px;
+            padding-bottom: 40px;
+            background-color:#6a7b86;
+            background: url("../img/bg.jpg") repeat scroll center center rgb(243, 243, 243);
+            margin: 0px;
+            font-size: 14px;
+            line-height: 1;
+            font-family: 'Helvetica Neue',Helvetica,'Arial CE',Arial,sans-serif;
+            color: rgb(89, 89, 89);
+            text-shadow: 0px 1px 0px rgb(249, 249, 249);
+        }
+
+
+.form-signin {
+    max-width: 300px;
+    padding: 19px 29px 29px;
+    margin: 0 auto 20px;
+    -webkit-box-shadow:0 1px 0 rgba(255,255,255,0.13);
+    -moz-box-shadow:0 1px 0 rgba(255,255,255,0.13);
+    -ms-box-shadow:0 1px 0 rgba(255,255,255,0.13);
+    box-shadow:0 1px 0 rgba(255,255,255,0.13);
+    background:rgba(13,28,41,0.1);
+    font-size:15px;
+    color:#fff
+}
+.form-signin .checkbox {
+    margin-bottom: 10px;  
+}
+.form-signin .form-signin-heading {
+text-align: center;
+margin-bottom: 10px
+}
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+    font-size: 15px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 0px;
+}
+.form-signin .add-on {
+    font-size: 15px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 7px 9px;
+    color:#2970aa
+}
+hr.soften {
+    height: 2px;
+    margin: 10px 0;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.1), rgba(0,0,0,0));
+    border: 0;
+}
+.well {
+            position: relative;
+            margin: 0px 0px 30px;
+            width: auto;
+            height: auto;
+            border: 1px solid rgb(209, 209, 209);
+            border-radius: 11px 11px 11px 11px;
+            background: none repeat scroll 0% 0% rgb(229, 229, 229);   
+            -webkit-box-shadow:0 1px 0 rgba(255,255,255,0.13);
+            -moz-box-shadow:0 1px 0 rgba(255,255,255,0.13);
+            -ms-box-shadow:0 1px 0 rgba(255,255,255,0.13);
+            box-shadow:0 1px 0 rgba(255,255,255,0.13);
+        }
+
+.accordion-group {
+    margin-bottom: 1px;
+    border: 2px solid rgba(13,28,41,0.1);
+}
+.accordion-group blockquote {
+     padding: 0 0 0 15px;
+     margin: 0 0 2px;
+     border-left: 5px solid #5bc0de
+}
+.accordion-group dt {
+  width: 15%;
+}
+.accordion-group dd {
+  margin-left: 25%;
+}
+
+ .accordion-group a{
+        color: #5bc0de;
+}
+.accordion-group a:hover,
+a:focus {
+        color: #2f96b4;
+        text-decoration: none;
+}
+.dropdown-menu {
+background-color: rgba(255,255,255,.5);
+    }
+
+.jumbotron {
+  position: relative;
+  padding: 10px 0;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.4), 0 0 30px rgba(0,0,0,.075);
+  background: #020031; /* Old browsers */
+  background: -moz-linear-gradient(45deg, rgba(255,255,255,0.13) 0%,rgba(13,28,41,0.1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(255,255,255,0.13)), color-stop(100%,rgba(13,28,41,0.1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(45deg, rgba(255,255,255,0.13) 0%,rgba(13,28,41,0.1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(45deg, rgba(255,255,255,0.13) 0%,rgba(13,28,41,0.1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(45deg, rgba(255,255,255,0.13) 0%,rgba(13,28,41,0.1) 100%); /* IE10+ */
+  background: linear-gradient(45deg, rgba(255,255,255,0.13) 0%,rgba(13,28,41,0.1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='rgba(255,255,255,0.13)', endColorstr='rgba(13,28,41,0.1)',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+     -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+          box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+}
+.jumbotron h1 {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+}
+.jumbotron p {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.25;
+    margin-bottom: 30px;
+}
+
+/* Link styles (used on .masthead-links as well) */
+.jumbotron a {
+    
+    color: rgba(255,255,255,.5);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+}
+.jumbotron a:hover {
+    color: rgba(255,255,255,.5);
+    text-shadow: 0 0 10px rgba(255,255,255,.25);
+    text-decoration: none;
+}
+
+/* ---------- Mailbox ---------- */
+.count {
+	background-color: #3090bd;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	color: #ecf0f1;
+	display: inline-block;
+	font-size: 12px;
+	line-height: 24px;
+	height: 24px;
+	min-width: 12px;
+	margin-top: 8px;
+	padding: 0 6px;
+	text-align: center;
+}
+#mailbox {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+}
+#mailbox header {
+	background-color: rgba(13,28,41,0.1);
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #4e6469;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 5px solid #2F4F4F;
+        background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 400, color-stop(0%, rgba(255,255,255,0.13)), color-stop(400%, rgba(13,28,41,0.1)));
+        background: -webkit-radial-gradient(center center, circle closest-side,rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+        background: -moz-radial-gradient(center center, circle closest-side, rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+        background: -o-radial-gradient(center center, circle closest-side, rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+        background: radial-gradient(center center, circle closest-side, rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+}
+#mailbox ul {
+	background-color: #ecf0f1;
+        list-style-type: none;
+        
+        margin: 0px;
+}
+#mailbox ul li {
+	border-bottom: 1px solid #a6a8a9;
+	color: #776b6c;
+	
+	line-height: 40px;
+	padding: 0 24px;
+}
+#mailbox ul li > active {
+    border-left: 3px solid #f5f5f5;
+}
+#mailbox ul li:hover {
+	background-color: #56a3c7;
+	color: #ecf0f1;
+}
+#mailbox ul li:hover a {
+	color: #ecf0f1;
+        text-decoration: none;
+}
+#mailbox ul li i[class*="icon"] {
+	display: inline-block;
+	padding-right: 18px;
+	width: 16px;
+}
+#mailbox ul li a {
+	color: #3e4146;
+}
+#mailbox ul li span[class*="count"] {
+	float: right;
+}
+#mailbox footer {
+	background-color: #ecf0f1;
+	color: #3e4146;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 24px;
+}
+#mailbox footer a {
+	color: #3e4146;
+}
+#mailbox footer span[class*="entypo"] {
+	padding-left: 8px;
+}
+
+/* Chatbox style css
+-------------------------------------------------- */
+#chatlbox {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#chatlbox header {
+	background-color: rgba(13,28,41,0.1);
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+	color: #ecf0f1;
+	font-weight: bold;
+	line-height: 50px;
+	text-align: center;
+	border-bottom: 5px solid #2F4F4F;
+        background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 400, color-stop(0%, rgba(255,255,255,0.13)), color-stop(400%, rgba(13,28,41,0.1)));
+        background: -webkit-radial-gradient(center center, circle closest-side,rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+        background: -moz-radial-gradient(center center, circle closest-side, rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+        background: -o-radial-gradient(center center, circle closest-side, rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+        background: radial-gradient(center center, circle closest-side, rgba(255,255,255,0.13), rgba(13,28,41,0.1) 400%);
+
+}
+#chatlbox ul {
+	background-color: #ecf0f1;
+        list-style-type: none;
+        
+        margin: 0px;
+}
+#chatlbox ul li {
+	
+	color: #776b6c;
+	
+	
+	padding: 0 24px;
+}
+#chatlbox ul li > active {
+    border-left: 3px solid #f5f5f5;
+}
+
+#chatlbox ul li i[class*="icon"] {
+	display: inline-block;
+	padding-right: 18px;
+	width: 16px;
+}
+#chatlbox ul li a {
+	color: #3e4146;
+}
+#chatlbox ul li span[class*="count"] {
+	float: right;
+}
+#chatlbox footer {
+	background-color: #ecf0f1;
+	color: #3e4146;
+	height: 50px;
+	line-height: 50px;
+	padding-left: 24px;
+}
+#chatlbox footer a {
+	color: #3e4146;
+}
+#chatlbox footer span[class*="entypo"] {
+	padding-left: 8px;
+}
+.bubbledLeft,.bubbledRight{
+	margin-top: 3px;
+	padding: 3px 5px 3px 5px;
+	width: 70%;
+	clear: both;
+}
+
+.bubbledLeft{
+	float: left;
+	margin-right: auto;
+	
+	border: 1px solid grey;
+	border-radius: 0px 10px 10px 10px;	
+-webkit-border-radius: 0px 10px 10px 10px;	
+   -moz-border-radius: 0px 10px 10px 10px;	
+     -o-border-radius: 0px 10px 10px 10px;	
+	-ms-border-radius: 0px 10px 10px 10px;
+-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	
+	background-color: #ECE0F8;
+}
+
+.bubbledRight{
+	float: right;
+	margin-left: auto;
+	text-align: left;
+	
+	border: 1px solid grey;
+	border-radius: 10px 10px 0px 10px;
+-webkit-border-radius: 10px 10px 0px 10px;
+   -moz-border-radius: 10px 10px 0px 10px;
+      -o-border-radius: 10px 10px 0px 10px;
+	-ms-border-radius: 10px 10px 0px 10px;
+-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+
+	background-color: #CED8F6;
+}
+
+.commentArea{
+	margin: 5px;
+}
+
+/*----Signin Button-----*/
+.signin {
+        -webkit-box-shadow:0 0 0 10px rgba(255,255,255,0.1),0 2px 3px rgba(0,0,0,0.31),inset 0 1px rgba(255,255,255,0.16);
+        -moz-box-shadow:0 0 0 10px rgba(255,255,255,0.1),0 2px 3px rgba(0,0,0,0.31),inset 0 1px rgba(255,255,255,0.16);
+        box-shadow:0 0 0 5px rgba(255,255,255,0.1),0 2px 3px rgba(0,0,0,0.31),inset 0 1px rgba(255,255,255,0.16)
+}   

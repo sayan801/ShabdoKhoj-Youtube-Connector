@@ -1,0 +1,90 @@
+*{margin:0;padding:0;}
+
+#header{background:#f8f8f8;height:100px;border-top:5px solid #D00505;}
+
+#header_panel{width:960px;margin:auto;}
+
+.site_name{font-size:30px;font-weight:bold;text-transform:uppercase;float:left;margin-top:20px;font-family:"Orbitron";}
+
+.top_menu{float:right;}
+
+.top_menu ul li
+
+{float:left;display:block;background:#000;padding:10px;font-family:"Orbitron";}
+
+.top_menu ul li:hover{cursor:hand;}
+
+.top_menu 
+
+ul li a{color:#fff;text-decoration:none;}
+
+.menu_highlight
+
+{background:#D00505!important;}
+
+#footer{background:#f8f8f8;height:100px;}
+
+body
+
+{overflow:hidden!important;}
+
+.slide{color:#395B91;font-weight:bold;width:500px;height:200px;text-align:left;}
+
+h2{margin:20px;}
+
+#impress
+
+{height:450px;position:relative;width:auto;}
+
+#wrap{min-height:400px;margin:20px auto;overflow:hidden;position:relative;width:960px;}
+
+.step{width:1200px;height:600px;display:block;transition:opacity 1s;}
+
+
+
+
+
+.services{background:none repeat scroll 0 0 
+
+#F8F8F8;border:10px solid 
+
+#EAEAEA;height:400px;width:800px;}
+
+.service-desc{margin:150px 
+
+auto;font-size:50px;font-family:"Arvo";color:#000;text-align:center;font-weight:bold;}
+
+
+
+#jobseekers-overview .title
+
+{font-size:100px;margin:150px 10px;width:800px;text-align:center;}
+
+
+#jobseekers-overview .title .line1
+
+{font-size:100px;font-family:"Orbitron";}
+
+/*#services-overview .title .line2
+
+{font-size:50px;font-family:"Oswald";}.hint{background:none repeat scroll 0 0 rgba(207,65,65,0.898);
+
+border-top:3px solid #F8F8F8;bottom:0;color:#FCFCFC;display:none;font-family:arvo;font-size:50px;left:0;opacity:0;
+
+outline:1px solid 
+
+#EEEEEE;padding:20px;position:fixed;right:0;text-
+
+align:center;transform:translateY(400px);transition:opacity 1s 
+
+ease 0s,transform 0.5s ease 1s;z-index:100;}*/
+
+.impress-enabled 
+
+.hint{display:block;}
+
+.impress-on-about .hint
+
+{opacity:1;transform:translateY(0px);transition:opacity 1s ease 
+
+1s,transform 0.5s ease 1s;}
